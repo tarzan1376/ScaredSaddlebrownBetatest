@@ -4,7 +4,7 @@ class Program {
   public static void Main (string[] args) {
 
 
-    Console.WriteLine("What is the minimum sustainted wind speed? : ");
+    Console.WriteLine("What is the minimum sustained wind speed? : ");
       double windSpeed;
       double.TryParse(Console.ReadLine(), out windSpeed);
 
